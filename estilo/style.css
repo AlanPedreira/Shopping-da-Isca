@@ -59,9 +59,29 @@ nav > a {
 
 nav > a:hover {
     background-color: var(--cor0);
-    color: black;
+    color: white;
 }
 
 body {
     background-color:white;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px white;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .5s, border 1s;
+
 }
